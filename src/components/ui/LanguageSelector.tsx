@@ -10,8 +10,8 @@ const LanguageSelector = ({languages, className}: { languages: string[], classNa
     return (
         <div className={`flex flex-row items-center space-x-2 ${className}`}>
             {languages.map((language) => (
-                <Link href={`/${language}`}>
-                    <Toggle aria-label={`Toggle ${language}`} key={language} pressed={language === locale}>
+                <Link href={`/${language}`} key={language}>
+                    <Toggle aria-label={`Toggle ${language}`} pressed={language === locale}>
                         <span className="text-lg uppercase">{language}</span>
                     </Toggle>
                 </Link>
