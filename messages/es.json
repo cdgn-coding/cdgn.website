@@ -1,0 +1,53 @@
+{
+  "About": {
+    "hello": "Hola, soy Carlos David",
+    "profileHeadline": "Creando Soluciones de Software Listas para el Futuro con Experiencia y Liderazgo",
+    "profileParagraph": "Soy un ingeniero de software con principios y más de 7 años de experiencia en la construcción y escalado de sistemas sofisticados. Reconocido por liderar equipos talentosos, pionero en la adaptación tecnológica, mentoría de talentos y prosperar en entornos desafiantes e innovadores.",
+    "experience": {
+      "pomelo": {
+        "companyName": "Pomelo",
+        "position": "Líder de Ingeniería de Software",
+        "date": "2021 - 2023",
+        "responsibilities": {
+          "leadership": "Lideré el desarrollo de 'Dashboard', una aplicación web clave para la gestión de clientes durante la etapa inicial de la empresa, enfocándome en la escalabilidad usando Typescript/React",
+          "mentorship": "Mentoreé a los miembros del equipo para mejorar sus habilidades técnicas y fomentar un entorno colaborativo",
+          "development": "Desarrollé clientes para Elasticsearch y GraphQL en Go, ampliamente adoptados dentro de la empresa",
+          "architect": "Jugué un papel fundamental en la formación del stack tecnológico de la empresa seleccionando las tecnologías y marcos de trabajo apropiados"
+        }
+      },
+      "mercadolibre": {
+        "companyName": "MercadoLibre",
+        "position": "Líder de Ingeniería de Software",
+        "date": "2018 - 2020",
+        "responsibilities": {
+          "leadership": "Lideré la creación de 'Seller Coach', mejorando el rendimiento de los vendedores en 3 países usando Java, Go y Typescript/React",
+          "mentorship": "Mentoreé a un equipo diverso de desarrolladores y diseñadores, promoviendo las mejores prácticas en el desarrollo de software y la colaboración en equipo"
+        }
+      },
+      "mercadolibre2": {
+        "companyName": "MercadoLibre",
+        "position": "Ingeniero Senior de Software",
+        "date": "2018 - 2020",
+        "responsibilities": {
+          "development": "Desarrollé un módulo de gestión de productos en masa, mejorando la eficiencia de los vendedores en 5 países con Java y Typescript/React",
+          "architect": "Creé librerías para Backend Driven UI y GraphQL, ampliamente adoptadas en toda la empresa",
+          "leadership": "Promoví las pruebas automatizadas y realicé sesiones de formación para mejorar el proceso de desarrollo",
+          "mentoring": "Mentoré activamente a ingenieros junior, facilitando la transferencia de conocimientos y el desarrollo de sus carreras"
+        }
+      },
+      "globant": {
+        "companyName": "Globant",
+        "position": "Ingeniero de Software",
+        "date": "2017 - 2018",
+        "responsibilities": {
+          "development": "Desarrollé una aplicación web de gestión de inversiones para JP Morgan Chase desde cero usando Java con Spring y React",
+          "leadership": "Realicé formaciones y creé documentación para nuevos miembros del equipo, mejorando su comprensión del proyecto y habilidades técnicas"
+        }
+      }
+    }
+  },
+  "Layout": {
+    "about": "Acerca de",
+    "articles": "Artículos"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "About": {
+    "hello": "Hello, I'm Carlos David",
+    "profileHeadline": "Crafting Future-Ready Software Solutions with Expertise and Leadership",
+    "profileParagraph": "I'm a principled software engineer with over 7 years of experience in building and scaling sophisticated systems. Known for leading talented teams, pioneering technology adaptation, mentoring talents, and thriving in challenging, innovative environments.",
+    "experience": {
+      "pomelo": {
+        "companyName": "Pomelo",
+        "position": "Lead Software Engineer",
+        "date": "2021 - 2023",
+        "responsibilities": {
+          "leadership": "Led the development of 'Dashboard', a key web application for client management during the company's seed stage, focusing on scalability using Typescript/React",
+          "mentorship": "Mentored team members to enhance technical skills and foster a collaborative environment",
+          "development": "Developed Elasticsearch and GraphQL clients for Go, widely adopted within the company",
+          "architect": "Played a pivotal role in shaping the company's technology stack by selecting appropriate technologies and frameworks"
+        }
+      },
+      "mercadolibre": {
+        "companyName": "MercadoLibre",
+        "position": "Lead Software Engineer",
+        "date": "2018 - 2020",
+        "responsibilities": {
+          "leadership": "Led the creation of 'Seller Coach', improving seller performance in 3 countries using Java, Go, and Typescript/React.",
+          "mentorship": "Mentored a diverse team of developers and designers, promoting best practices in software development and team collaboration."
+        }
+      },
+      "mercadolibre2": {
+        "companyName": "MercadoLibre",
+        "position": "Senior Software Engineer",
+        "date": "2018 - 2020",
+        "responsibilities": {
+          "development": "Developed a mass product management module, improving seller efficiency in 5 countries with Java and Typescript/React",
+          "architect": "Created libraries for Backend Driven UI and GraphQL, widely adopted across the company",
+          "leadership": "Championed automated testing and conducted training sessions to improve the development process",
+          "mentoring": "Actively mentored junior engineers, facilitating knowledge transfer and career development"
+        }
+      },
+      "globant": {
+        "companyName": "Globant",
+        "position": "Software Engineer",
+        "date": "2017 - 2018",
+        "responsibilities": {
+          "development": "Developed a web-based investment management application for JP Morgan Chase from scratch using Java with Spring and React",
+          "leadership": "Conducted training and created documentation for new team members, enhancing project understanding and technical skills"
+        }
+      }
+    }
+  },
+  "Layout": {
+    "about": "About",
+    "articles": "Articles"
+  }
+}
