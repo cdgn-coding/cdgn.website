@@ -12,7 +12,7 @@ const LanguageSelector = ({languages, className}: { languages: string[], classNa
             {languages.map((language) => (
                 <Link href={`/${language}`} key={language}>
                     <Toggle aria-label={`Toggle ${language}`} pressed={language === locale}>
-                        <span className="text-lg uppercase">{language}</span>
+                        <span className="text-base uppercase">{language}</span>
                     </Toggle>
                 </Link>
             ))}

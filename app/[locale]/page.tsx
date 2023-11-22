@@ -8,7 +8,9 @@ export async function generateMetadata({params: {locale}} : {params: {locale: st
     const t = await getTranslations({locale, namespace: 'About'});
 
     return {
+        // @ts-ignore
         title: t('pageTitle'),
+        // @ts-ignore
         description: t('pageDescription'),
     };
 }
@@ -67,11 +69,11 @@ export default function About() {
             </section>
             <section className="flex flex-col">
                 {Object.keys(companies).map((company) => (
-                    <section className="flex flex-row my-4" key={company}>
-                        <div className="inline-flex text-gray-600 flex-wrap min-w-fit text-lg">
+                    <section className="flex md:flex-row md:my-4 flex-col" key={company}>
+                        <div className="inline-flex text-gray-600 flex-wrap min-w-fit text-lg mt-6 md:mt-0">
                             {t(`experience.${company}.date`)}
                         </div>
-                        <div className="flex flex-col ml-6">
+                        <div className="flex flex-col md:ml-6">
                             <div className="text-gray-900 text-lg font-medium">
                                 <Link href={companies[company].website}>
                                 <span className="flex flex-row items-center">

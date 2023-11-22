@@ -45,7 +45,7 @@ export default function RootLayout({
           <div className="antialiased max-w-3xl flex flex-col mx-auto px-8 pb-12">
             <header className="flex flex-row items-center py-8">
               <section className="relative -top-0.5">
-                <Link className="text-lg font-bold text-gray-900" href="/">
+                <Link className="text-2xl font-bold text-gray-900" href="/">
                   cdgn.
                 </Link>
               </section>

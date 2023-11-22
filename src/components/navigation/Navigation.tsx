@@ -20,8 +20,8 @@ export default function Navigation({ className, options }: { className?: string,
           {options.map((option) => (
               <NavigationMenuItem key={option.name}>
               <Link href={option.href} legacyBehavior passHref>
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  {option.name}
+                <NavigationMenuLink className={`${navigationMenuTriggerStyle()}`}>
+                  <span className="text-base">{option.name}</span>
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
